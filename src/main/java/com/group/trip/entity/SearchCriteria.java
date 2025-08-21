@@ -24,4 +24,7 @@ public class SearchCriteria {
     private BudgetRange budget;
 
     private String vibe;
+    private String includeTravel;
+    private String includeAccommodation;
+
 }
