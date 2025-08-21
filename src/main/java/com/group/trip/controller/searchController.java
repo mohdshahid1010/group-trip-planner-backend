@@ -25,5 +25,9 @@ public class searchController {
           .body(response);
     }
 
+    @GetMapping("/health")
+    public String health() {
+        return "Working";
+    }
 
 }
