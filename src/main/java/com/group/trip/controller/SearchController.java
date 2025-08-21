@@ -2,7 +2,6 @@ package com.group.trip.controller;
 
 import com.group.trip.entity.Itinerary;
 import com.group.trip.entity.SearchCriteria;
-import com.group.trip.model.response.SearchResponseDTO;
 import com.group.trip.service.SearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/v1/search")
-public class searchController {
+public class SearchController {
 
     @Autowired
     private SearchService searchService;

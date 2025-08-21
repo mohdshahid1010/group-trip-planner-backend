@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class SearchCriteria {
 
+    private String prompt;
     private String source;
 
     private String destination;
